@@ -52,7 +52,7 @@
 			}
 			
 			.navbar .container-fluid li {
-				margin-left: 180px;
+				margin-left: 250px;
 				font-size: 20px;
 				float: left;
 			}
@@ -69,14 +69,14 @@
 				height: 60px;
 			}
 
-			.box2 {
+			.box2,.box3,.box4,.box5,.box6,.box7,.box8 {
 				height: 770px;
 				width: 1600px;
 				display: block;
 				margin-top: 30px;
 			}
 			
-			.box2 img {
+			.box2,.box3,.box4,.box5,.box6,.box7,.box8 img {
 				height: 770px;
 				width: 100%;
 			}
@@ -111,53 +111,6 @@
 				width: auto;
 			}
 
-			.box4 {
-
-				height: 770px;
-				width: 100%;
-				position: relative;
-			}
-			
-			.box4 img {
-				left: -10px;
-				position: relative;
-			}
-			
-			.box2 {
-				position: relative;
-			}
-			
-			.box2 img {
-				left: -10px;
-				position: relative;
-			}
-			
-			.box3 .boxx {
-				left: -10px;
-				position: relative;
-			}
-
-			.box5 p {
-				top: 217px;
-				position: relative;
-			}
-			
-			.box5 img {
-				margin-top: 60px;
-			}
-
-			.box6 img {
-				width: 100%;
-				height: auto;
-				margin-top: 50px;
-			}
-			
-			.box7 img {
-				height: auto;
-				z-index: 1;
-				width: 100%;
-			}
-			
 			.mohu ul li {
 				height: 160px;
 				width: 160px;
@@ -300,7 +253,7 @@
 				object-fit:cover;
 			}
 
-			.box2-p1,.box3-p1,.box4-p1 {
+			.box2-p1,.box3-p1,.box4-p1,.box5-p1,.box6-p1,.box7-p1,.box8-p1 {
 				position: absolute;
 				top: 30%;
 				left: 15%;
@@ -313,7 +266,7 @@
 				opacity:0;
 			}
 
-			.box2-p2,.box3-p2,.box4-p2 {
+			.box2-p2,.box3-p2,.box4-p2,.box5-p2,.box6-p2,.box7-p2,.box8-p2 {
 				position: absolute;
 				top: 40%;
 				left: 40%;
@@ -326,7 +279,7 @@
 				opacity:0;
 			}
 
-			.box2-p3,.box3-p3,.box4-p3 {
+			.box2-p3,.box3-p3 {
 				position: absolute;
 				top: 50%;
 				left: 40%;
@@ -338,7 +291,33 @@
 				transition:left 3s ease 2.2s,opacity  3s ease 2.2s;
 				opacity:0;
 			}
+			
+			.box3-p4 {
+				position: absolute;
+				top: 70%;
+				left: 45%;
+				transform: translate(-50%, -50%);
+				width: 800px;
+				height: 200px;
+				color: white;
+				font-size: 25px;
+				transition:left 4s ease 3.2s,opacity  4s ease 3.2s;
+				opacity:0;
+			}
 
+        	.box4-p3,.box5-p3,.box6-p3,.box7-p3,.box8-p3 {
+        		position: absolute;
+				top: 70%;
+				left: 45%;
+				transform: translate(-50%, -50%);
+				width: 800px;
+				height: 200px;
+				color: white;
+				font-size: 25px;
+				transition:left 3s ease 2.2s,opacity  3s ease 2.2s;
+				opacity:0;
+        	}
+        	
 			.box2:hover .box2-p1 {
 				left: 20%;
 				opacity: 1;
@@ -368,7 +347,12 @@
 				left: 30%;
 				opacity: 1;
 			}
-
+			
+			.box3:hover .box3-p4 {
+				left: 55%;
+				opacity: 1;
+			}
+			
 			.box4:hover .box4-p1 {
 				left: 20%;
 				opacity: 1;
@@ -380,9 +364,70 @@
 			}
 
 			.box4:hover .box4-p3 {
+				left: 55%;
+				opacity: 1;
+			}
+			
+			.box5:hover .box5-p1 {
+				left: 20%;
+				opacity: 1;
+			}
+						
+			.box5:hover .box5-p2 {
 				left: 30%;
 				opacity: 1;
 			}
+			
+			.box5:hover .box5-p3 {
+				left: 55%;
+				opacity: 1;
+			}
+		
+			.box6:hover .box6-p1 {
+				left: 20%;
+				opacity: 1;
+			}
+						
+			.box6:hover .box6-p2 {
+				left: 30%;
+				opacity: 1;
+			}
+			
+			.box6:hover .box6-p3 {
+				left: 55%;
+				opacity: 1;
+			}
+						
+			.box7:hover .box7-p1 {
+				left: 20%;
+				opacity: 1;
+			}
+									
+			.box7:hover .box7-p2 {
+				left: 30%;
+				opacity: 1;
+			}
+			
+			.box7:hover .box7-p3 {
+				left: 55%;
+				opacity: 1;
+			}
+			
+			.box8:hover .box8-p1 {
+				left: 20%;
+				opacity: 1;
+			}
+									
+			.box8:hover .box8-p2 {
+				left: 30%;
+				opacity: 1;
+			}
+			
+			.box8:hover .box8-p3 {
+				left: 55%;
+				opacity: 1;
+			}
+			
 		</style>
 
 	</head>
@@ -396,13 +441,10 @@
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
 							<li>
-								<a href="#">连接<span><hr/></span></a>
+								<a href="#">使命</a>
 							</li>
 							<li>
 								<a href="#">愿景</a>
-							</li>
-							<li>
-								<a href="#">使命</a>
 							</li>
 							<li>
 								<a href="#">价值观</a>
@@ -427,25 +469,58 @@
 				<div class="swiper-slide">
 					<div class="box2">
 						<img src="img/wesidu/brief-1.jpg" />
-                        <p class="box2-p1">愿景：</p>
-						<p class="box2-p2">成为领先的</p>
-						<p class="box2-p3">教育服务运营商</p>
+                        <p class="box2-p1">使命：</p>
+						<p class="box2-p2">创新教育</p>
+						<p class="box2-p3">源动中国</p>
 					</div>
 				</div>
 				<div class="swiper-slide">
 					<div class="box3">
 						<img src="img/wesidu/Mission.jpg" />
-						<p class="box3-p1">使命：</p>
-						<p class="box3-p2">创新教育</p>
-						<p class="box3-p3">原动中国</p>
+						<p class="box3-p1">愿景：</p>
+						<p class="box3-p2">成为领先的</p>
+						<p class="box3-p3">教育服务运营商</p>
+						<p class="box3-p4">到2025年，构建高校信息化生态模式，持续为用户创造价值。到2035年，协同高校构建个性化产业人才培养新模式，致力于培养面向未来的现代人才</p>
 					</div>
 				</div>
 				<div class="swiper-slide">
 					<div class="box4">
-						<img src="img/wesidu/business-1.jpg" />
+						<img src="img/wesidu/pic-bg.jpg" />
 						<p class="box4-p1">价值观：</p>
-						<p class="box4-p2">创新卓越</p>
-						<p class="box4-p3">信仰责任</p>
+						<p class="box4-p2">用户第一</p>
+						<p class="box4-p3">所有产品业务的出发点都是我们的用户，了解我们真正的用户，用心回归用户需求本质，一切围绕如何使用户价值最大化</p>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="box5">
+						<img src="img/wesidu/business-1.jpg" />
+						<p class="box5-p1" style="color: gray;">价值观：</p>
+						<p class="box5-p2" style="color: gray;">开放求真</p>
+						<p class="box5-p3" style="color: gray;">开放才能减少系统内耗，把自己打开真诚的面对用户才会收到真实的反馈，才会吸引更多的人成为我们的同行者</p>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="box6">
+						<img src="img/wesidu/m-pic2.jpg" />
+						<p class="box6-p1" style="color: gray;">价值观：</p>
+						<p class="box6-p2" style="color: gray;">追求卓越</p>
+						<p class="box6-p3" style="color: gray;">追求卓越的背后是不断追问问题的核心，是透过现象看本质的能力，是持续学习自动自驱把事情往最好推进</p>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="box7">
+						<img src="img/wesidu/type-box.jpg" />
+						<p class="box7-p1">价值观：</p>
+						<p class="box7-p2">勇于担当</p>
+						<p class="box7-p3">做事情受到别人的质疑与反对是正常的，要学会承担，要用成绩证明自己的判断。如果坚信可以比其他人看到更远的未来，那就带领同行的人一起奋力前行</p>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="box8">
+						<img src="img/wesidu/responsibility.jpg" />
+						<p class="box8-p1">价值观：</p>
+						<p class="box8-p2">守正坚韧</p>
+						<p class="box8-p3">坚守正道，以至诚之心做事, 不管面对怎样的困难局面，不随便妥协、丧失原则。我们一直在做一件困难的事情，但是坚信我们真正可以推动中国教育改革，坚信通过自己的努力可以让身边的人，让周围的社会变的更好，坚信这是正道就义无反顾贯彻到底</p>
 					</div>
 				</div>
 			</div>
